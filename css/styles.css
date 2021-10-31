@@ -1,0 +1,164 @@
+body { 
+    background: rgb(90,58,164);
+    background: linear-gradient(180deg, rgba(90,58,164,1) 0%, rgba(161,160,214,0.05694152661064422) 53%, rgba(90,58,164,1) 100%);
+background-repeat: no-repeat;
+width: 100vw;
+height: 100vh;
+ 
+}
+
+.img-logo {
+max-width: 150px;
+cursor: pointer;
+}
+
+nav, #hamburger-menu {
+    display: none;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding:10px;
+    display: block;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.current {
+    font-weight: bold;
+}
+
+.hamburger-label{
+    float: right;
+    color: #000;
+    padding:10px;
+    font-size: 1.5em;
+    display: block;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+
+}
+
+@media(min-width: 600px) {
+    .img-logo {
+    float: left;
+    }
+
+.container{
+    display: flex;
+}
+
+.item {
+ flex:  1;
+ padding:  5px;
+ margin:  5px;   
+ margin-top: 70px;
+ max-width: 150px;
+ font-family: roboto, 'Arial Narrow Bold', sans-serif;
+ cursor: pointer;
+ color: #fff;
+ 
+
+}
+
+.one {
+ background-color: #5d3ca6;
+   flex: 6;
+}
+
+.two {
+ background-color: #5d3ca6;
+   flex: 6;
+}
+
+.three {
+ background-color: #5d3ca6;
+   flex: 6;
+}
+
+
+    label {
+        display: block;
+        font: 1rem 'Fira Sans', sans-serif;
+        padding: 10px;
+    }
+    
+    input,
+    label {
+        margin: .6rem 0;
+        
+    }
+.button {
+    padding: 10px;
+}
+
+.cta {
+    margin-left: 0px;
+    padding: 16px 16px;
+    background-color: #F34645;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}
+.top_nav {
+        grid-gap: 1.5em;
+        display: inline-flex;
+        height: 100px !important;
+        width: 100px;
+        max-height: 150px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        justify-content: space-evenly;
+        padding-right: 50px;
+        margin-top: 10px;
+        margin-left: 5px;
+
+        @media
+        
+}
+
+.product-list {
+    display: inline-grid;
+    grid-template-columns: ifr ifr;
+    position: relative;
+    border: 1px solid#5d3ca6;
+}
+.products1 {
+    grid-gap: 1.5em;
+    display: inline-flex;
+    padding: 20px;
+    font-size: 70px;
+    color: #fff;
+}
+
+.products2 {
+    grid-gap: 1.5em;
+    display: inline-flex;
+    padding: 1px;
+    font-size: 70px;
+    color: #fff;
+}
+
+.products3 {
+    grid-gap: 1.5em;
+    display: inline-flex;
+    padding: 1px;
+    font-size: 70px;
+    color: #fff;
+}
