@@ -1,0 +1,58 @@
+.gamedetails {
+    display: inline-grid;
+    grid-template-columns: ifr ifr;
+    margin-left: 15px;
+    
+    
+}
+img {
+  width: 50%;
+  height: 60%;
+  display: block;
+}
+.img-display {
+    overflow: hidden;
+  }
+  .product-content {
+    padding: 2rem 1rem;
+  }
+  .product.tittle {
+    font-size: 3rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    position: relative;
+    margin: 1rem 0;
+
+  }
+.product-rating {
+    color: #252525;
+    
+  }
+.product-rating span {
+    font-weight: 600;
+    color: #252525;
+
+  }
+.purchase-info input,
+.purchase-info .btn {
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0.45rem 0.8rem;
+    outline: 0;
+    margin-right: 0.2rem;
+    margin-bottom: 1rem;
+  }
+.purchase-info .btn:first-of-type {
+    background: #1450FF;
+
+  }
+.purchase-info .btn:hover {
+    opacity: 0.9;
+
+  }
+.social-links {
+    display: flex;
+    align-items: center;
+
+  }
