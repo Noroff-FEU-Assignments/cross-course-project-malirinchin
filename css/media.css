@@ -1,0 +1,6 @@
+@media only screen and (max-widt: 500px) {
+    label {
+        display: block;
+        cursor: pointer;
+}
+}
